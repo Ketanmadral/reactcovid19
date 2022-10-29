@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactcovid19/static/css/main.25dbe59e.css",
+    "main.js": "/reactcovid19/static/js/main.19e3268b.js",
+    "static/media/image.png": "/reactcovid19/static/media/image.9e5d4fc7428c24bbc17d.png",
+    "index.html": "/reactcovid19/index.html",
+    "main.25dbe59e.css.map": "/reactcovid19/static/css/main.25dbe59e.css.map",
+    "main.19e3268b.js.map": "/reactcovid19/static/js/main.19e3268b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25dbe59e.css",
+    "static/js/main.19e3268b.js"
+  ]
+}
