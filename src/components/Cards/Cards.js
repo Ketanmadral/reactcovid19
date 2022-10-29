@@ -12,14 +12,13 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
 
     console.log(recovered)
     return (
-   
-
-
-        <div className={styles.container}>
-        
-            <div className='d-flex justify-content-center'>
-                <div className={cx(styles.card, styles.infected)}>
-                    <div className='card-body'>
+        <>
+        <div className='container '>
+           <div className='row my-3 d-flex justify-content-center'>
+               <div className='col-md-3'>
+               
+               <div className={cx(styles.card, styles.infected)}>
+                   <div className='card-body'>
                         <p className='text-secondary'>Infected</p>
                         <p className='h4'>
                             <CountUp
@@ -33,7 +32,9 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                         <p className='small'>Number of active cases of covid-19</p>
                     </div>
                 </div>
-                <div className={cx(styles.card, styles.recovered)}>
+               </div>
+               <div className='col-md-3 '> 
+               <div className={cx(styles.card, styles.recovered)}>
                     <div className='card-body'>
                         <p className='text-secondary'>Recovered</p>
                         <p className='h4'>
@@ -48,7 +49,9 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                         <p className='small'>Number of Recoveries from covid-19</p>
                     </div>
                 </div>
-                <div className={cx(styles.card, styles.deaths)}>
+               </div>
+               <div className='col-md-3'> 
+               <div className={cx(styles.card, styles.deaths)}>
                     <div className='card-body'>
                         <p className='text-secondary'>Deaths</p>
                         <p className='h4'>
@@ -63,8 +66,13 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                         <p className='small'>Number of deaths caused by covid-19</p>
                     </div>
                 </div>
-            </div>
-        </div>
+               </div>
+
+           </div>
+
+           </div>
+       </>
+
     )
 }
 
