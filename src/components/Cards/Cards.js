@@ -14,7 +14,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
     return (
         <>
         <div className='container '>
-           <div className='row my-3 d-flex justify-content-center'>
+           <div className='row my-4 d-flex justify-content-center'>
                <div className='col-md-3'>
                
                <div className={cx(styles.card, styles.infected)}>
